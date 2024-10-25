@@ -85,10 +85,12 @@ public void Dissplayinfo()
 
 public bool Bowworbook()
 {
-    if ( copiesAvailabe)
+    if ( copiesAvailabe>0)
+        Console.WriteLine("yes")
 }
 
-
+public bool returnbook()
+    // es agar vici
 
 
 
@@ -98,7 +100,7 @@ public bool Bowworbook()
     using System;
     public class Library
     //private field 
-    private string books
+    private string books;
 
 //7.დააიმპლემენტირეთ მეთოდები Library კლასში:
 
@@ -106,8 +108,28 @@ public bool Bowworbook()
 //* RemoveBook
 //* DisplayAllBooks
 
+public void addbook()
+{//anu axali wignis axali monacemebi shegvyavs
+    Console.WriteLine("Title: {title}, Author: {author}, ISBN: {isbn}, Copies Available: {copiesAvailable}")
+}
+
+public void displayallbooks()
+{
+    if (books.Count > 0)
+    {
+        Console.WriteLine("Books available in the library:");
+        foreach (Book in books)
+        {
+            book.displayinfo ();
+        }
+    }
 
 
-8.Library კლასს დაამატეთ ძებნის ფუნქციონალი
 
-9. შექმენით ლუპი და კონსოლში მოემსახურეთ კლიენტებს, რომლებსაც ბიბლიოთეკასთან მუშაობა სჭირდებათ.
+//8.Library კლასს დაამატეთ ძებნის ფუნქციონალი
+
+
+
+//9. შექმენით ლუპი და კონსოლში მოემსახურეთ კლიენტებს, რომლებსაც ბიბლიოთეკასთან მუშაობა სჭირდებათ.
+// amas vegarc vaswreb mara mgoni verc mivxvdebodi mara go me 
+// chemi azrit sqls ufro davamugameb <3
